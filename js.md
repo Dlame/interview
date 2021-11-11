@@ -1,4 +1,4 @@
-### javascript的原始数据类型有哪些？
+### 1.javascript的原始数据类型有哪些？
 
 * strIng
 
@@ -14,7 +14,7 @@
 
   > 其中symbol是es6新增数据类型，代表创建后唯一且不可修改的数据类型，主要是为了解决全局变量冲突
 
-### typeof和instanceof的区别
+### 2.typeof和instanceof的区别
 
 * **typeof** 可以判断原型数据类型，在判断引用型数据时除function以外其他都为object
 * **instanceof**是通过原型链判断，缺点是无法判断原始类型
@@ -39,11 +39,11 @@ function instance_of(left, right) {
 }
 ```
 
-### js哪些数据为false
+### 3.js哪些数据为false
 
 undenfined、null、NaN、0、-0、''
 
-### 函数中的this指向
+### 4.函数中的this指向
 
 1. **箭头函数内调用**：指向包裹它的函数
 
